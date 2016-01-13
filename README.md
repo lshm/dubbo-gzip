@@ -1,4 +1,4 @@
-dubbo-gzip跟老的dubbo传输协议不兼容，其他跟dubbo一样
+dubbo-gzip跟老的dubbo传输协议不兼容，提供了gzip压缩传输数据，其他跟dubbo一样
 http://dubbo.io/Home-zh.htm
 ================================================================
 Quick Start
