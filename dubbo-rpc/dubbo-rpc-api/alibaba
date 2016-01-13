@@ -1,0 +1,1 @@
+[2015-01-12 16:47:22] null:0 -> 10.1.2.119:0 - com.alibaba.dubbo.rpc.support.DemoService echo(java.lang.String) ["aa"]

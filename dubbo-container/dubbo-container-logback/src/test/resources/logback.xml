@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration scan="true" scanPeriod="10 seconds" debug="true">
+    <jmxConfigurator />
+
+
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>ERROR</level>
+        </filter>
+        <immediateFlush>false</immediateFlush>
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %X
+                %logger{32}.%M:%L - %msg%n</pattern>
+        </layout>
+    </appender>
+
+    <root>
+        <level>DEBUG</level>
+        <appender-ref ref="STDOUT" />
+    </root>
+</configuration>
